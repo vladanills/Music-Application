@@ -15,4 +15,5 @@
             app:layout_constraintBottom_toTopOf="parent"
             app:layoutManager="android.support.v7.widget.LinearLayoutManager">
     </android.support.v7.widget.RecyclerView>
+
 </android.support.constraint.ConstraintLayout>
