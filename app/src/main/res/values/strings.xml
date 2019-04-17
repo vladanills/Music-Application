@@ -1,3 +1,8 @@
 <resources>
+
     <string name="app_name">Music Album Application</string>
+
+    <!--Content Description-->
+    <string name="content_description_icon_album">Music album icon</string>
+
 </resources>
