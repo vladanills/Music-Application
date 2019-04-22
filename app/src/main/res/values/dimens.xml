@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_list_vertical_margin1">8dp</dimen>
+    <dimen name="album_list_vertical_margin2">20dp</dimen>
+    <dimen name="album_list_vertical_margin3">16dp</dimen>
+    <dimen name="album_list_size">65dp</dimen>
+    <dimen name="album_list_size2">221dp</dimen>
+    <dimen name="album_list_size3">22dp</dimen>
+    <dimen name="teztsize1">10sp</dimen>
+    <dimen name="textsize2">20sp</dimen>
+    <dimen name="textsize3">18sp</dimen>
+</resources>

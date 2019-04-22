@@ -31,7 +31,7 @@ class AlbumsAdapter(
         val al = albums[position]
         holder.itemView.namealbum.text = al.album
         holder.itemView.artist.text = al.artist
-        holder.itemView.price.text = al.price
+//        holder.itemView.price.text = al.price
         Picasso.get()
             .load(al.imageUrl)
             .into(holder.itemView.imagealbum)

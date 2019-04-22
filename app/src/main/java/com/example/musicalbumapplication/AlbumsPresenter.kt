@@ -25,5 +25,5 @@ class AlbumsPresenter (
 }
 
 interface AlbumsView {
-    fun displayAlbums(products: List<Album>)
+    fun displayAlbums(albums: List<Album>)
 }
