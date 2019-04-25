@@ -29,12 +29,12 @@ class AlbumsAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val al = albums[position]
-        holder.itemView.namealbum.text = al.album
-        holder.itemView.artist.text = al.artist
+        holder.itemView.vTextAlbumName.text = al.album
+        holder.itemView.vTextArtist.text = al.artist
 //        holder.itemView.price.text = al.price
         Picasso.get()
             .load(al.imageUrl)
-            .into(holder.itemView.imagealbum)
+            .into(holder.itemView.vImageAlbum)
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
